@@ -34,7 +34,7 @@ export default function Main({ translateY }) {
         </NavItem>
         <NavItem>
           <Icon name="smartphone" size={20} color="#FFF" />
-          <NavText>Codigurações do app</NavText>
+          <NavText>Cofigurações do app</NavText>
         </NavItem>
       </Nav>
 
