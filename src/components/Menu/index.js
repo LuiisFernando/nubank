@@ -6,9 +6,15 @@ import {
   Container, Code, Nav, NavItem, NavText, SignOutButton, SignOutButtonText,
 } from './styles';
 
-export default function Main() {
+export default function Main({ translateY }) {
   return (
-    <Container>
+    <Container style={{
+      opacity: translateY.interpolate({
+        inputRange: [0, 150],
+        outputRange: [0, 1],
+      }),
+    }}
+    >
       <Code>
         <QRCode value="https://github.com/LuiisFernando" size={80} fgColor="#FFF" bgColor="#8B10AE" />
       </Code>
