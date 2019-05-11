@@ -78,7 +78,7 @@ export default function Main() {
           <Card style={{
             transform: [{
               translateY: translateY.interpolate({
-                inputRange: [-350, 0, 380], // if I  swipe up 350 only move 50, zero, if move 340 move 340
+                inputRange: [-350, 0, 380], // if I  swipe up -350 only move -10 up, zero, if swipe down 380 move 380 down
                 outputRange: [-10, 0, 380],
                 extrapolate: 'clamp', // don't let me extrapolate the screen
               }),
