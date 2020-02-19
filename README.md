@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://i.imgsafe.org/f0/f0efb30935.gif">
+  <img src="https://media.giphy.com/media/d7kupcZwIGN89quRLM/giphy.gif">
 </p>
 
 # Nubank
